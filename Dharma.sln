@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dharma.Common", "Dharma.Com
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dharma.Common.Tests", "Dharma.Common.Tests\Dharma.Common.Tests.csproj", "{AF866A1C-8E87-46A0-85F7-7D06C30B111B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dharma.Data.MongoDB", "Dharma.Data.MongoDB\Dharma.Data.MongoDB.csproj", "{CE4D7AAF-D231-4917-84D2-4754A45446ED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dharma.Data.MongoDB", "Dharma.Data.MongoDB\Dharma.Data.MongoDB.csproj", "{CE4D7AAF-D231-4917-84D2-4754A45446ED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dharma.Data.MongoDB.Tests", "Dharma.Data.MongoDB.Tests\Dharma.Data.MongoDB.Tests.csproj", "{A082F9A5-8937-4F40-8101-A307DFF208C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dharma.Data.MongoDB.Tests", "Dharma.Data.MongoDB.Tests\Dharma.Data.MongoDB.Tests.csproj", "{A082F9A5-8937-4F40-8101-A307DFF208C4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dharma.Application", "Dharma.Application\Dharma.Application.csproj", "{7C56B6D2-E351-448C-B679-CC06C9D94070}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A082F9A5-8937-4F40-8101-A307DFF208C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A082F9A5-8937-4F40-8101-A307DFF208C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A082F9A5-8937-4F40-8101-A307DFF208C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C56B6D2-E351-448C-B679-CC06C9D94070}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C56B6D2-E351-448C-B679-CC06C9D94070}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C56B6D2-E351-448C-B679-CC06C9D94070}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C56B6D2-E351-448C-B679-CC06C9D94070}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
